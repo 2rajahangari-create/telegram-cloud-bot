@@ -263,7 +263,7 @@ class AdvancedTradingBot:
         
         # آمار کلی
         long_signals = len([c for c in market_data if "LONG" in c['signal_4h']])
-        short_signals = len([c for c in market_data if "SHORT" in c['signal_4h'])
+        short_signals = len([c for c in market_data if "SHORT" in c['signal_4h']])
         pump_potentials = len([c for c in market_data if c['has_pump_potential']])
         
         message += f"\n<b>📈 آمار بازار:</b>\n"
